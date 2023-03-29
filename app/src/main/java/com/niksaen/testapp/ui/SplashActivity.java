@@ -19,14 +19,11 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         Handler handler = new Handler();
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                if(((MainApplication)(getApplication())).getUserData().getIsNew())
-                    nextActivity(ChangeGenderActivity.class);
-                else
-                    nextActivity(MainActivity.class);
-            }
+        Runnable runnable = () -> {
+            if(((MainApplication)(getApplication())).getUserData().getIsNew())
+                nextActivity(ChangeGenderActivity.class);
+            else
+                nextActivity(MainActivity.class);
         };
         handler.postDelayed(runnable,2000);
     }
