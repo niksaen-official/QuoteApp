@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">testApp</string>
+    <string name="app_name">QuoteApp</string>
     <string name="hi">Hi,\n</string>
     <string name="change_you_gender">Change you gender</string>
     <string name="next">Next</string>
