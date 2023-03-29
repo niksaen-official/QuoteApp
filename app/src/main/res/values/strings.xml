@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">testApp</string>
+    <string name="hi">Hi,\n</string>
+    <string name="change_you_gender">Change you gender</string>
+    <string name="next">Next</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="registration">Registration</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="confirm">Confirm</string>
+    <string name="close">Close</string>
+</resources>
